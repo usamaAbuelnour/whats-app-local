@@ -1,0 +1,77 @@
+.profile{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 3em 0.5em;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    row-gap: 2%;
+	height: 95dvh;
+    height: 95svh;
+}
+.profile h3{
+    color: #00A884;
+    margin-bottom: 30px;
+}
+.profile p{
+    font-size: 0.8em;
+}
+.profile .camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: #8596A0;
+    color: white;
+    margin: 30px auto 40px;
+    transform: scalex(-1);
+}
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.profile input{
+    width: 80%;
+    background-color: #121B22;
+    border: none;
+    border-bottom: solid 3px #00A884;
+    padding: 10px;
+    color: #8596A0;
+    font-size: 0.9em;
+    caret-color: #00A884;
+    
+}
+.profile input::placeholder{
+    color: #8596A0;
+}
+.profile input:focus{
+    outline: none;
+}
+
+.profile .smile{
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+.profile .myButton{
+
+    color: #1F2C34;
+    background-color: #00a884;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    margin-top: auto;
+    
+}
+.myButton:hover {
+    cursor: pointer;
+    background-color: hsl(167, 100%, 40%);
+}

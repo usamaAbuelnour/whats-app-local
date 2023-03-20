@@ -1,0 +1,68 @@
+.newcontact{
+    color: white;
+    background-color: black;
+}
+
+.newcontact header{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 10px 3%;
+    gap: 0 5%;
+}
+ .newcontact header span:last-of-type{
+    margin-left: auto;
+ }
+
+ .newcontact .photo{
+    text-align: center;
+    font-size: 0.9em;
+ }
+ .newcontact .photo span:first-of-type{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 42px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #8596A0;
+    margin: 5px auto 15px;
+ }
+ .newcontact .photo p{
+    font-size: 0.9em;
+    color: #8596A0;
+ }
+ .newcontact .discard, .newcontact .save {
+   cursor: pointer;
+ }
+
+form div{
+    padding: 10px;
+    background-color: #212224;
+    border-radius: 12px;
+    margin: 10px 8px;
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+    color: #8596A0;
+ }
+ form div span{
+    font-size: 1.5em;
+ }
+ form div input{
+    width: 90%;
+    background-color: inherit;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    caret-color: dodgerblue;
+ }
+ form div input:focus{
+    outline: none;
+ }
+ form div input::placeholder{
+    color: #8596A0;
+ }

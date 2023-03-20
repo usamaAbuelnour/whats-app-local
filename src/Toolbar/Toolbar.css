@@ -1,0 +1,19 @@
+.toolbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1F2C34;
+    padding-top: 15px;
+
+}
+.toolbar .toolbarIco{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    width: 30%;
+    justify-content: space-between;
+}
+.toolbar .whatsapp{
+    padding-left: 7px;
+}

@@ -1,0 +1,12 @@
+
+body{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #8596A0;
+  background-color: #121B22;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}

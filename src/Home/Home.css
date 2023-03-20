@@ -1,0 +1,51 @@
+.home {
+	/* border: 2px solid red; */
+    padding: 3em 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    row-gap: 4%;
+	width: 90%;
+	margin: 0 auto;
+	height: 95dvh;
+    height: 95svh;
+}
+.home h2 {
+	color: white;
+	font-size: 1.4em;
+}
+
+.home p {
+    /* border: 1px solid yellow; */
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+.home span {
+	color: hwb(201 35% 22%);
+}
+.home .link {
+	text-decoration: none;
+	color: #1f2c34;
+	background-color: #00a884;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 50px;
+	border: none;
+	border-radius: 3px;
+    margin-top: auto;
+
+}
+.link:hover {
+    cursor: pointer;
+    background-color: hsl(167, 100%, 40%);
+}
+
+@media (max-width: 380px) {
+    .home .homelogo {
+        width: 100%
+    }
+    .home img {
+        width: 100%;
+    }
+}

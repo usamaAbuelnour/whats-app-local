@@ -1,0 +1,31 @@
+.contact{
+    padding: 15px;
+    display: flex;
+}
+.contact:hover {
+    cursor: pointer;
+    background-color: #1F2C34;
+}
+.contact .image{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 42px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #8596A0;
+    margin-right: 18px;
+
+}
+.contact .name{
+    font-size: 0.8em;
+
+    
+}
+.contact .time{
+    margin-left: auto;
+    color: #9EA7B1;
+    font-size: 0.7em;
+}

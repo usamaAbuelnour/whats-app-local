@@ -1,0 +1,31 @@
+.navbar{
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.navbar nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar nav a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    /* border: solid 1px red; */
+    width: 25%;
+    padding: 10px;
+    border-bottom: solid 4px #1F2C34;
+    
+
+}
+.navbar nav a[class='active']{
+    color: #00A884 ;
+    border-bottom-color: #00A884;
+}
+.navbar nav a:first-of-type{
+    font-size: 1.8em;
+
+    padding: 1px;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "jack",
+        "userChatHistory": [
+            {
+                "content": "hi usama",
+                "you": false
+            },
+            {
+                "content": "jack",
+                "you": true
+            }
+        ],
+        "contactChatHistory": [
+            {
+                "content": "hi usama",
+                "you": true
+            },
+            {
+                "content": "jack",
+                "you": false
+            }
+        ]
+    },
+    {
+        "name": "john",
+        "userChatHistory": [],
+        "contactChatHistory": []
+    }
+]
