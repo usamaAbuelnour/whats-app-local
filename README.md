@@ -20,11 +20,11 @@ Here you see your contacts
 
 You can add contacts to chat with
 
-![alt text](./src/images/screenshots/5.PNG)
+![alt text](./src/images/screenshots/5.png)
 
-![alt text](./src/images/screenshots/6.PNG)
+![alt text](./src/images/screenshots/6.png)
 
-![alt text](./src/images/screenshots/7.PNG)
+![alt text](./src/images/screenshots/7.png)
 
 To start a chat click on the contact
 
